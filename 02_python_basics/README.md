@@ -31,11 +31,12 @@ Operators  | Operation  | Example
 -| Subtraction | 5 - 2 = 3
 +| Addition | 2 + 2 = 4
 
-Examples of expressions in the interactive shell:
 
+Examples of expressions in the interactive shell:
+```python
     >>> 2 + 3 * 6
     20
-
+```
 ## Variables
 
 ## Comparison Operators
