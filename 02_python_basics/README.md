@@ -161,7 +161,7 @@ print('Access granted.')
 * Unlike strings, they are mutable
 * elements inside a list can be changed
 ```python 
->>> spam = ['cat', 'bat', '3', 'elephant']
+>>> spam = ['cat', 'bat', 3, 'elephant']
 
 >>> spam
 ['cat', 'bat', 'rat', 'elephant']
@@ -171,7 +171,7 @@ print('Access granted.')
 ```
 * Indexing
 ```python 
->>> spam = ['cat', 'bat', '3', 'elephant']
+>>> spam = ['cat', 'bat', 3, 'elephant']
 
 positive Index
 >>> spam[2]
@@ -181,8 +181,31 @@ negative Index
 'elephant'
 ```
 * Slicing
+```python 
+>>> spam = ['cat', 'bat', 3, 'elephant']
+>>> spam[0:4]
+['cat', 'bat', 3, 'elephant']
 
+>>> spam[1:3]
+['bat', 3]
 
+>>> spam[:2]
+['cat', 'bat']
+```
+* Reassign
+```python
+>>> spam = spam + ['add new item']
+>>> spam
+['cat', 'bat', 3, 'elephant', 'add new item']
+```
+* Create a new list
+```python
+>>> spam = ['cat', 'bat', 3, 'elephant']
+>>> spam.append('append me!')
+
+>>>spam
+['cat', 'bat', 3, 'elephant', 'append me!']
+```
 ## Dictionaries
 
 ## Functions
