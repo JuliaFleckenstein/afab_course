@@ -57,15 +57,20 @@ Operators  | Operation  | Example
 
 ## If - elif - else statements
 
-_Definition
+```
+Definition
+
 if my_condition is equal a value:
     execute some code
 elif my_other_condition is equal another value:
     execute something different
 else:
-    do something else_
+    do something else
+```
     
 ```
+Example
+
 mysite = "afab"
 if mysite == "robot lab":
     print("It is part of the DesignFactory")
@@ -73,9 +78,9 @@ elif mysite == "afab":
     print("Coding is cool")
 else:
     print("I do not know much")
-```
 
 `Coding is cool`
+```
 
 ## While loop
 
