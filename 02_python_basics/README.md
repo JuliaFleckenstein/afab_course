@@ -44,18 +44,34 @@ Examples of expressions in the interactive shell:
 
 ## Comparison Operators
 
-Description a=3 and b=4
+Used Example a = 3 and b = 4
 
 Operators  | Operation  | Example
 ---- | ---- | ---- 
-`>` | If the value of left operand is greater than the value of right operand, then condition becomes true. | (a > b) -> False
-`<` | If the value of left operand is less than the value of right operand, then condition becomes true. | (a < b) -> True
-`==` | If the values of two operands are equal, then the condition becomes true.	| (a == b) -> False
-`>=` | If the value of left operand is greater than or equal to the value of right operand, then condition becomes true. | (a >= b) -> False
-`<=` | If the value of left operand is less than or equal to the value of right operand, then condition becomes true. | (a <= b) -> True
-`!=` | If values of two operands are not equal, then condition becomes true. | (a != b) -> True
+`>` | If the value of left operand is **greater than** the value of right operand, the condition becomes true | (a > b) -> False
+`<` | If the value of left operand is **less than** the value of right operand, the condition becomes true. | (a < b) -> True
+`==` | If the values of two operands are **equal**, then the condition becomes true.	| (a == b) -> False
+`>=` | If the value of left operand is **greater than or equal** to the value of right operand, then condition becomes true. | (a >= b) -> False
+`<=` | If the value of left operand is **less than or equal** to the value of right operand, then condition becomes true. | (a <= b) -> True
+`!=` | If values of two operands are **not equal**, then condition becomes true. | (a != b) -> True
 
-## If statements
+## If - elif - else statements
+`if my_condition is equal a value:
+    execute some code
+elif my_other_condition is equal another value:
+    execute something different
+else:
+    do something else`
+
+>>> mysite = "afab"
+>>>if mysite == "robot lab":
+>>>    print("It is part of the DesignFactory")
+>>>elif mysite == "afab":
+>>>    print("Coding is cool")
+>>>else:
+>>>    print("I do not know much")
+
+Coding is cool
 
 ## While loop
 
