@@ -105,9 +105,57 @@ else:
 
 ## For loop
 
-BREAK: Breaks out of the current closest enclosing loop
-CONTINUE: Goes to the top of the closest enclosing loop
-PASS: Does nothing at all
+* iterating over items of a sequence (usually a list)
+```python 
+mylist = [1,2,3,4,5,6,7,8,9,10]
+for jelly in mylist:
+    print(jelly)
+```
+* iterating over numbers in range()
+>>>The range() function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration: range(start, stop, step)
+```python 
+for i in range(0, 10, 2):
+    print(i)
+```
+* iterating over characters in a string
+```python 
+for letter in "Python":
+    print("current letter: ", letter)
+```  
+* iterating over every key in a dictonary
+```python 
+d = {"k1":1, "k2":2, "k3":3}
+for item in d:
+    print(item)
+```
+* index in range
+```python 
+print(len(pets))
+print(list(range(len(pets))))
+
+for index in range(0,len(pets)):
+    print(index, pets[index])
+```    
+* index and objects in list
+```python 
+for p,x in enumerate(pets):
+    print(p, x)
+```
+* BREAK: Breaks out of the current closest enclosing loop
+* CONTINUE: Goes to the top of the closest enclosing loop
+* PASS: Does nothing at all
+```python 
+while True:
+    print('Who are you?')
+    name = input()
+    if name != 'Joe':
+        continue
+    print('Hello, Joe. What is the password? (It is a fish.)')
+    password = input()
+    if password == 'swordfish':
+        break
+print('Access granted.')
+```
 
 ## Lists
 
