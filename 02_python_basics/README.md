@@ -56,12 +56,15 @@ Operators  | Operation  | Example
 `!=` | If values of two operands are **not equal**, then condition becomes true. | (a != b) -> True
 
 ## If - elif - else statements
-`if my_condition is equal a value:
+
+Definition
+if my_condition is equal a value:
     execute some code
 elif my_other_condition is equal another value:
     execute something different
 else:
-    do something else`
+    do something else
+    
 
     >>>mysite = "afab"
     >>>if mysite == "robot lab":
@@ -71,7 +74,7 @@ else:
     >>>else:
         >>>print("I do not know much")
 
-Coding is cool
+`Coding is cool`
 
 ## While loop
 
