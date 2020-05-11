@@ -201,10 +201,10 @@ negative Index
 * Create a new list
 ```python
 >>> spam = ['cat', 'bat', 3, 'elephant']
->>> spam.append('append me!')
+>>> spam.append('append me!!')
 
 >>>spam
-['cat', 'bat', 3, 'elephant', 'append me!']
+['cat', 'bat', 3, 'elephant', 'append me!!']
 ```
 ## Dictionaries
 
