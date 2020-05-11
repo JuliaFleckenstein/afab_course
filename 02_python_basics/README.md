@@ -57,9 +57,8 @@ Operators  | Operation  | Example
 
 ## If - elif - else statements
 
-```
 Definition
-
+```python
 if my_condition is equal a value:
     execute some code
 elif my_other_condition is equal another value:
@@ -68,22 +67,45 @@ else:
     do something else
 ```
     
-```python
 Example
-
+```python
 mysite = "afab"
 if mysite == "robot lab":
     print("It is part of the DesignFactory")
 elif mysite == "afab":
-    print("Coding is cool")
+    print("Coding is fun")
 else:
     print("I do not know much")
 ```
 
-`Coding is cool`
+`Coding is fun`
 
 
 ## While loop
+
+Definition
+# repeats statement(s) while a condition is TRUE 
+# requires an exit condition
+```python
+while some_boolean_condition:
+    do something
+else:
+    do something different
+```
+
+Example
+```python
+break_condition = 0
+while break_condition < 10:
+    break_condition = break_condition + 1
+    print(break_condition)
+else:
+    print("out of while loop")
+```
+
+BREAK: Breaks out of the current closest enclosing loop
+CONTINUE: Goes to the top of the closest enclosing loop
+PASS: Does nothing at all
 
 ## For loop
 
