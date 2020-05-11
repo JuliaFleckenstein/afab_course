@@ -78,9 +78,10 @@ elif mysite == "afab":
     print("Coding is cool")
 else:
     print("I do not know much")
-
-Coding is cool
 ```
+
+`Coding is cool`
+
 
 ## While loop
 
