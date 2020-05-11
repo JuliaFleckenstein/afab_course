@@ -84,11 +84,8 @@ else:
 ## While loop
 
 Definition
-
-repeats statment(s) while a condition is TRUE
-
-requires an exit condition
-
+* repeats statment(s) while a condition is TRUE
+* requires an exit condition
 ```python
 while some_boolean_condition:
     do something
