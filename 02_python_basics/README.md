@@ -63,13 +63,13 @@ elif my_other_condition is equal another value:
 else:
     do something else`
 
->>> mysite = "afab"
->>>if mysite == "robot lab":
->>>    print("It is part of the DesignFactory")
->>>elif mysite == "afab":
->>>    print("Coding is cool")
->>>else:
->>>    print("I do not know much")
+    >>>mysite = "afab"
+    >>>if mysite == "robot lab":
+        >>>print("It is part of the DesignFactory")
+    >>>elif mysite == "afab":
+        >>>print("Coding is cool")
+    >>>else:
+        >>>print("I do not know much")
 
 Coding is cool
 
