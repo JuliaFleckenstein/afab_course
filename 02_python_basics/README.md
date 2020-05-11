@@ -68,7 +68,7 @@ else:
     do something else
 ```
     
-```
+```ruby
 Example
 
 mysite = "afab"
@@ -79,7 +79,7 @@ elif mysite == "afab":
 else:
     print("I do not know much")
 
-`Coding is cool`
+Coding is cool
 ```
 
 ## While loop
