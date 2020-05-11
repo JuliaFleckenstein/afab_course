@@ -84,8 +84,11 @@ else:
 ## While loop
 
 Definition
-# repeats statement(s) while a condition is TRUE 
-# requires an exit condition
+
+repeats statment(s) while a condition is TRUE
+
+requires an exit condition
+
 ```python
 while some_boolean_condition:
     do something
@@ -103,11 +106,11 @@ else:
     print("out of while loop")
 ```
 
+## For loop
+
 BREAK: Breaks out of the current closest enclosing loop
 CONTINUE: Goes to the top of the closest enclosing loop
 PASS: Does nothing at all
-
-## For loop
 
 ## Lists
 
