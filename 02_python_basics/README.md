@@ -112,7 +112,7 @@ for jelly in mylist:
     print(jelly)
 ```
 * iterating over numbers in range()
->>>The range() function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration: range(start, stop, step)
+> The range() function can also be called with three arguments. The first two arguments will be the start and stop values, and the third will be the step argument. The step is the amount that the variable is increased by after each iteration: range(start, stop, step)
 ```python 
 for i in range(0, 10, 2):
     print(i)
@@ -158,6 +158,30 @@ print('Access granted.')
 ```
 
 ## Lists
+* Unlike strings, they are mutable
+* elements inside a list can be changed
+```python 
+>>> spam = ['cat', 'bat', '3', 'elephant']
+
+>>> spam
+['cat', 'bat', 'rat', 'elephant']
+
+>>> len(spam)
+4
+```
+* Indexing
+```python 
+>>> spam = ['cat', 'bat', '3', 'elephant']
+
+positive Index
+>>> spam[2]
+'2'
+negative Index
+>>> spam[-1]
+'elephant'
+```
+* Slicing
+
 
 ## Dictionaries
 
