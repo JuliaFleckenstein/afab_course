@@ -68,7 +68,7 @@ else:
     do something else
 ```
     
-```ruby
+```python
 Example
 
 mysite = "afab"
