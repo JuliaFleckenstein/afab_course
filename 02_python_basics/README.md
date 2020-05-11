@@ -20,7 +20,7 @@ Strings | 'a', 'aa', 'aaa', 'Hello!', '11 cats'
 
 
 ## Operators
-
+```ruby
 Operators  | Operation  | Example
 ---- | ---- | ---- 
 ** | Exponent | 2 ** 3 = 8
@@ -30,6 +30,7 @@ Operators  | Operation  | Example
 *| Multiplication | 3 * 3 = 9
 -| Subtraction | 5 - 2 = 3
 +| Addition | 2 + 2 = 4
+```
 
 Examples of expressions in the interactive shell:
 
