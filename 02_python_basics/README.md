@@ -12,12 +12,17 @@
 
 ## Datatypes
 
-Data Type  | Examples 
----- | ---- 
-Integers |	-2, -1, 0, 1, 2, 3, 4, 5
-Floating-point numbers | -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25
-Strings | 'a', 'aa', 'aaa', 'Hello!', '11 cats'
+Data Type  | Description | Examples 
+---- | ---- | ---- 
+Integers | Whole Numbers	-2, -1, 0, 1, 2, 3, 4, 5
+Floating-point numbers | Numbers with decimal point |  -1.25, -1.0, --0.5, 0.0, 0.5, 1.0, 1.25
+Strings | Ordered sequence of characters | 'a', 'aa', 'aaa', 'Hello!', '11 cats'
 
+List | Ordered sequence of objects | [10, "Hello", 20.3]
+Dictonary | Unordered key : value pairs | {"MyKey" : "Value"}
+Tuples | Ordered immutable sequence of objects | (10, "Hello, 20.3)
+Set | Unordered collection of unique objects | {"a", "b"}
+Bool | Logical value indicating True or False | True / False
 
 ## Operators
 
@@ -39,6 +44,18 @@ Examples of expressions in the interactive shell:
 ## Variables
 
 ## Comparison Operators
+
+Description a=3 and b=4
+
+Operators  | Operation  | Example
+---- | ---- | ---- 
+
+==	| If the values of two operands are equal, then the condition becomes true.	| (a == b) -> False
+!= | If values of two operands are not equal, then condition becomes true. | (a != b) -> True
+> |	If the value of left operand is greater than the value of right operand, then condition becomes true. | (a > b) -> False
+< |	If the value of left operand is less than the value of right operand, then condition becomes true. | (a < b) -> True
+>= | If the value of left operand is greater than or equal to the value of right operand, then condition becomes true. | (a >= b) -> False
+<= | If the value of left operand is less than or equal to the value of right operand, then condition becomes true. | (a <= b) -> True
 
 ## If statements
 
